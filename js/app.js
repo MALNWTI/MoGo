@@ -31,7 +31,9 @@ $(function(){
     $this.addClass("active");
     $("html, body").animate({
       scrollTop: blockOffset
-    }, 500);
+    }, 1000);
+    $("#nav").removeClass("active");
+    $("#nav_toggle").removeClass("active");
 
   });
 
